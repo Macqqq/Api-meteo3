@@ -37,7 +37,7 @@ namespace METEO2
                 CB_Ville.Items.Add(newItem);
             }
 
-            // Appelez la méthode GetMeteo pour charger les données météorologiques d'Annecyy
+            // Appelez la méthode GetMeteo pour charger les données météorologiques d'Annecyylk
             string selectedCity = "Annecy";
             GetMeteo(selectedCity);
         }
