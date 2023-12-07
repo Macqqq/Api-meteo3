@@ -8,7 +8,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using Newtonsoft.Json;
 
-namespace METEO2_taha_khelifi
+namespace METEO2
 {
     public partial class MainWindow : Window
     {
@@ -37,7 +37,7 @@ namespace METEO2_taha_khelifi
                 CB_Ville.Items.Add(newItem);
             }
 
-            // Appelez la méthode GetMeteo pour charger les données météorologiques d'Annecy
+            // Appelez la méthode GetMeteo pour charger les données météorologiques d'Annecyy
             string selectedCity = "Annecy";
             GetMeteo(selectedCity);
         }

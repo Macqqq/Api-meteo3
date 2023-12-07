@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.IO; // Ajoutez cette directive
 using System.Net.Http;
 using System.Threading.Tasks;
-using static METEO2_taha_khelifi.MainWindow;
 
-namespace METEO2_taha_khelifi
+
+namespace METEO2
 {
     public class Class2
     {
